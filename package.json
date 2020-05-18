@@ -1,6 +1,6 @@
 {
   "name": "colorconverter-z2m",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Color Converter for RGB <-> HEX color values",
   "main": "index.js",
   "scripts": {
