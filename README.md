@@ -18,7 +18,7 @@ console.log(output);
 ```
 
 ##Why did I create it?
-* Created this package as part of a coding challenge hosted by z2m - (https://github.com/zero-to-mastery/Coding_Challenge-6)[https://github.com/zero-to-mastery/Coding_Challenge-6]
+Created this package as part of a coding challenge hosted by z2m - [https://github.com/zero-to-mastery/Coding_Challenge-6](https://github.com/zero-to-mastery/Coding_Challenge-6)
 
 ## License
 ISC License.
