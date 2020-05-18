@@ -1,0 +1,114 @@
+*{
+  box-sizing:border-box;
+}
+html, body{
+  width:100%; 
+  padding: 20px;
+	margin: 0 auto;
+	font-size: 1.25rem;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align: center;
+  background:#F0F0D8;
+  color: #41403E;
+  font-family: 'Patrick Hand', cursive;
+}
+
+h1 { text-transform: uppercase; }
+/*h3 { margin: 5px 0; }*/
+
+label { font-size: 1.5rem; align-self: center; }
+.input {
+	font-family: 'Patrick Hand', cursive;
+	color: #41403E;
+	text-align: center;
+	background:transparent;
+  padding:1rem 1rem;
+  margin:1rem;
+  transition:all .5s ease;
+  font-size:1.5rem;
+  letter-spacing:2px;
+  text-transform: uppercase;
+  outline:none;
+  /* hand drawn border effect: https://codemyui.com/hand-drawn-border-buttons-css/ */
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border:solid 5px #41403E;
+}
+.input:hover{
+  box-shadow:6px 8px 4px 1px rgba(25,25,24,0.2);
+} 
+.input:focus{
+  border:solid 5px rgba(255,255,255,0.2);
+} 
+
+#button {
+	font-family: 'Patrick Hand', cursive;
+	color: #F0F0D8;
+	background: #41403E;
+  padding:0.5rem;
+  margin:0.5rem;
+  font-size:1.25rem;
+  letter-spacing:1px;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border:solid 5px #41403E;
+}
+#button:hover{
+  box-shadow:6px 8px 4px 1px rgba(25,25,24,0.2);
+} 
+
+#color-output {
+  text-transform: uppercase;
+  color: #1257a6;
+  font-size: 2rem;
+  text-shadow: 2px 2px #cc0000;
+  display: none;
+  padding:0;
+  margin:0;
+}
+
+#hidden-div {  opacity:0; display:none; }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: #41403E;
+  color: #F0F0D8;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:620px){
+}
+
+
+/* need dark / light mode */
