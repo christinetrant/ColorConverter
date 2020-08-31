@@ -1,7 +1,7 @@
 
 // ---------- HEX TO RGB ---------- //
 const hexToRgb = ((arr, color) => {
-	let tempStr = color;
+	let tempStr = color.toLowerCase();
 	// have an empty array to temporarily store items
 	let tempArr = [];
 	// split input into an array:
@@ -39,7 +39,7 @@ const hexToRgb = ((arr, color) => {
 
 // ---------- RGB TO HEX ---------- //
 const rgbToHex = ((arr, color) => {
-	let tempStr = color;
+	let tempStr = color.toLowerCase();
 	if(tempStr.includes('rgb(')) {
 		tempStr = tempStr.replace('rgb(', '');
 		if(tempStr.includes(')')) {
